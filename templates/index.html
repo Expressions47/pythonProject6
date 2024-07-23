@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="header">
+    <h1 class="header-title">Ласкаво просимо до піцерії!</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ-iCR4yQcQsq-ICmCUrgGyG3qIZ5XwFHUwQ&s" alt="Фото піцерії" class="header-img">
+    </div>
+<h2><a href="{{ url_for('menu') }}">МЕНЮ</a></h2>
+</body>
+</html>
